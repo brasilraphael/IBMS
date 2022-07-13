@@ -72,3 +72,7 @@ main {
     line-height: 2.2rem;
     margin-bottom: 1.5rem;
 }
+
+.invite i{
+    color: var(--tc-primary);
+}
