@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --ff-heading: 'Bebas Neue', cursive;
+    --ff-body: 'Montserrat', sans-serif;
+
+    --fs-heading: 4.8rem;
+    --fs-body: 2.4rem;
+}
+
+body {
+    background: black;
+}
