@@ -101,10 +101,10 @@ section {
     color: #000000;
 
     font-family: var(--ff-heading);
-    font-size: 2.5rem;
+    font-size: 2rem;
     display: inline;
     margin: 0 auto;
-    padding: 1.6rem;
+    padding: 1.5rem 4.5rem;
 
     background: var(--tc-secondary);
     text-align: center;
