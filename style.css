@@ -93,16 +93,22 @@ section {
     margin-top: 2rem;
 }
 
+#knowledge {
+    display: grid;
+}
+
 #knowledge h1 {
     color: #000000;
 
     font-family: var(--ff-heading);
     font-size: 2.5rem;
+    display: inline;
+    margin: 0 auto;
+    padding: 1.6rem;
 
     background: var(--tc-secondary);
     text-align: center;
 
-    padding: 1.5rem;
     border-radius: 9px;
 }
 
