@@ -34,6 +34,10 @@ main {
     margin: 0 auto;
 }
 
+section {
+    margin-bottom: 5rem;
+}
+
 #home h1 {
     color: var(--tc-primary);
 
@@ -63,6 +67,8 @@ main {
 
     font-family: var(--ff-body);
     font-size: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 .invite {
@@ -80,4 +86,18 @@ main {
 
 .invite i{
     color: var(--tc-primary);
+}
+
+#knowledge h1 {
+    color: #000000;
+
+    font-family: var(--ff-heading);
+    font-size: 2.5rem;
+    line-height: 58px;
+
+    background: var(--tc-secondary);
+    text-align: center;
+
+    padding: 0.5rem 1rem;
+    border-radius: 9px;
 }
