@@ -97,7 +97,7 @@ section {
     color: #000000;
 
     font-family: var(--ff-heading);
-    font-size: 2rem;
+    font-size: 1rem;
 
     background: var(--tc-secondary);
     text-align: center;
