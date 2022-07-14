@@ -42,21 +42,42 @@ section {
     color: var(--tc-primary);
 
     font-family: var(--ff-heading);
-    font-size: var(--fs-heading);
-    line-height: 5.8rem;
+    font-size: 4.2rem;
+    line-height: 4rem;
 }
 
 #home p {
     color: var(--tc-primary);
 
     font-family: var(--ff-body);
-    font-size: var(--fs-body);
-    line-height: 2.2rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
 }
 
 .video {
     max-width: 32rem;
     max-height: 18rem;
+    margin: 2rem 0;
+}
+
+.invite-wrapper {
+    display: grid;
+    gap: 1rem;
+}
+
+.invite {
+    color: var(--tc-secondary);
+    
+    font-family: var(--ff-body);
+    font-size: 2rem;
+    
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.invite i{
+    color: var(--tc-primary);
 }
 
 .button {
@@ -69,23 +90,7 @@ section {
     font-size: 2rem;
     display: flex;
     justify-content: center;
-}
-
-.invite {
-    color: var(--tc-secondary);
-
-    font-family: var(--ff-body);
-    font-size: 2.2rem;
-    line-height: 2.2rem;
-    margin-bottom: 1.5rem;
-    
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-
-.invite i{
-    color: var(--tc-primary);
+    margin-top: 2rem;
 }
 
 #knowledge h1 {
