@@ -93,13 +93,14 @@ section {
     margin-top: 2rem;
 }
 
-#knowledge h1 {
+#knowledge .title {
     width: 32rem;
 
     color: #000000;
 
     font-family: var(--ff-heading);
-    font-size: 1.5rem;
+    font-weight: 700;
+    font-size: 2.4rem;
     padding: 1.5rem 0;
 
     background: var(--tc-secondary);
