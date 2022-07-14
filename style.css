@@ -100,7 +100,7 @@ section {
 
     font-family: var(--ff-heading);
     font-size: 2rem;
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 0;
 
     background: var(--tc-secondary);
     text-align: center;
