@@ -38,12 +38,18 @@ section {
     margin-bottom: 5rem;
 }
 
+.logo {
+    width: 11rem;
+    margin: 3rem 0;
+}
+
 #home h1 {
     color: var(--tc-primary);
 
     font-family: var(--ff-heading);
     font-size: 4.2rem;
     line-height: 4rem;
+    margin-bottom: 2rem;
 }
 
 #home p {
