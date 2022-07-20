@@ -34,6 +34,10 @@ main {
     margin: 0 auto;
 }
 
+span {
+    color: var(--tc-secondary);
+}
+
 section {
     margin-bottom: 5rem;
 }
@@ -142,3 +146,39 @@ section {
     font-size: 1.6rem;
     font-family: var(--ff-body);
 }
+
+#student h1 {
+    font-family: var(--ff-heading);
+    font-size: var(--fs-heading);
+    line-height: 4rem;
+    margin-bottom: 2rem;
+}
+
+#student p {
+    font-family: var(--ff-body);
+    font-size: var(--fs-body);
+    line-height: 2rem;
+}
+
+.student-type-wrapper {
+    margin-top: 3rem;
+    display: grid;
+    gap: 2rem;
+}
+
+.student-type {
+    border: 3px solid var(--tc-secondary);
+    border-radius: 21px;
+    padding: 4.5rem;
+    height: 40rem;
+
+    display: grid;
+    gap: 2rem;
+}
+
+.student-type h3 {
+    font-family: var(--ff-heading);
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
