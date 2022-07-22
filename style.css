@@ -98,6 +98,7 @@ section {
 
     font-family: var(--ff-body);
     font-size: 2rem;
+    font-weight: 700;
     display: flex;
     justify-content: center;
     margin-top: 2rem;
@@ -212,6 +213,10 @@ section {
     font-size: var(--fs-body);
 }
 
+#creator {
+    margin-top: 5rem;
+}
+
 #creator .text-wrapper h3 {
     font-family: var(--ff-heading);
     font-size: 3.5rem;
@@ -222,4 +227,26 @@ section {
     font-family: var(--ff-body);
     font-size: var(--fs-body);
     line-height: 2.5rem;
+}
+
+#contact h3 {
+    font-family: var(--ff-heading);
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: normal;
+}
+
+#contact p {
+    font-family: var(--ff-body);
+    font-size: var(--fs-body);
+    margin-top: 2rem;
+}
+
+#contact .button {
+    align-items: center;
+    gap: 2rem;
+}
+
+#contact .button p {
+    margin: 0;
 }
