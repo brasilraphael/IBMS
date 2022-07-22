@@ -182,3 +182,30 @@ section {
     line-height: 3rem;
 }
 
+#ability p {
+    font-family: var(--ff-body);
+    font-size: var(--fs-body);
+}
+
+#ability p span {
+    font-weight: bold;
+}
+
+#help {
+    border: 3px solid var(--tc-secondary);
+    border-radius: 40px;
+    padding: 3.5rem;
+}
+
+#help h3 {
+    font-family: var(--ff-heading);
+    font-size: 3rem;
+    line-height: 2.8rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+#help p {
+    font-family: var(--ff-body);
+    font-size: var(--fs-body);
+}
