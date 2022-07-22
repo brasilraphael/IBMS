@@ -109,7 +109,7 @@ section {
     color: #000000;
 
     font-family: var(--ff-heading);
-    font-weight: 700;
+    font-weight: 400;
     font-size: 2rem;
     padding: 1.5rem 0;
 
@@ -150,6 +150,7 @@ section {
 #student h1 {
     font-family: var(--ff-heading);
     font-size: var(--fs-heading);
+    font-weight: normal;
     line-height: 4rem;
     margin-bottom: 2rem;
 }
@@ -179,6 +180,7 @@ section {
 .student-type h3 {
     font-family: var(--ff-heading);
     font-size: 3rem;
+    font-weight: normal;
     line-height: 3rem;
 }
 
@@ -208,4 +210,16 @@ section {
 #help p {
     font-family: var(--ff-body);
     font-size: var(--fs-body);
+}
+
+#creator .text-wrapper h3 {
+    font-family: var(--ff-heading);
+    font-size: 3.5rem;
+    font-weight: normal;
+}
+
+#creator .text-wrapper p {
+    font-family: var(--ff-body);
+    font-size: var(--fs-body);
+    line-height: 2.5rem;
 }
