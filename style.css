@@ -250,3 +250,8 @@ section {
 #contact .button p {
     margin: 0;
 }
+
+footer {
+    height: 20rem;
+    background: var(--tc-secondary);
+}
