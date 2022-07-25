@@ -17,8 +17,8 @@ img {
     --ff-heading: 'Bebas Neue', cursive;
     --ff-body: 'Montserrat', sans-serif;
 
-    --fs-heading: 4.8rem;
-    --fs-body: 1.7rem;
+    --fs-heading: 3rem;
+    --fs-body: 1.6rem;
 
     --tc-primary: white;
     --tc-secondary: #E49F28;
@@ -51,7 +51,8 @@ section {
     color: var(--tc-primary);
 
     font-family: var(--ff-heading);
-    font-size: 4.2rem;
+    font-size: var(--fs-heading);
+    font-weight: 400;
     line-height: 4rem;
     margin-bottom: 2rem;
 }
@@ -61,7 +62,7 @@ section {
 
     font-family: var(--ff-body);
     font-size: 1.5rem;
-    line-height: 2rem;
+    line-height: 2.6rem;
 }
 
 .video {
@@ -91,7 +92,7 @@ section {
 }
 
 .button {
-    color: white;
+    color: var(--tc-primary);
     background: var(--tc-secondary);
     border-radius: 9px;
     padding: 1.5rem;
@@ -138,7 +139,7 @@ section {
 
 .topic h2{
     font-family: var(--ff-heading);
-    font-size: 3rem;
+    font-size: var(--fs-heading);
     line-height: 5.8rem;
 }
 
@@ -159,7 +160,7 @@ section {
 #student p {
     font-family: var(--ff-body);
     font-size: var(--fs-body);
-    line-height: 2rem;
+    line-height: 2.6rem;
 }
 
 .student-type-wrapper {
@@ -180,7 +181,7 @@ section {
 
 .student-type h3 {
     font-family: var(--ff-heading);
-    font-size: 3rem;
+    font-size: var(--fs-heading);
     font-weight: normal;
     line-height: 3rem;
 }
@@ -188,6 +189,7 @@ section {
 #ability p {
     font-family: var(--ff-body);
     font-size: var(--fs-body);
+    line-height: 2.6rem;
 }
 
 #ability p span {
@@ -202,7 +204,7 @@ section {
 
 #help h3 {
     font-family: var(--ff-heading);
-    font-size: 3rem;
+    font-size: var(--fs-heading);
     line-height: 2.8rem;
     font-weight: 400;
     margin-bottom: 2rem;
@@ -211,6 +213,7 @@ section {
 #help p {
     font-family: var(--ff-body);
     font-size: var(--fs-body);
+    line-height: 2.6rem;
 }
 
 #creator {
@@ -219,19 +222,19 @@ section {
 
 #creator .text-wrapper h3 {
     font-family: var(--ff-heading);
-    font-size: 3.5rem;
+    font-size: var(--fs-heading);
     font-weight: normal;
 }
 
 #creator .text-wrapper p {
     font-family: var(--ff-body);
     font-size: var(--fs-body);
-    line-height: 2.5rem;
+    line-height: 2.6rem;
 }
 
 #contact h3 {
     font-family: var(--ff-heading);
-    font-size: 4rem;
+    font-size: var(--fs-heading);
     line-height: 4rem;
     font-weight: normal;
 }
@@ -239,6 +242,7 @@ section {
 #contact p {
     font-family: var(--ff-body);
     font-size: var(--fs-body);
+    line-height: 2.6rem;
     margin-top: 2rem;
 }
 
@@ -252,6 +256,6 @@ section {
 }
 
 footer {
-    height: 20rem;
+    height: 30rem;
     background: var(--tc-secondary);
 }
