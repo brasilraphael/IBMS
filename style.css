@@ -145,7 +145,7 @@ section {
 
 .topic h3 {
     font-weight: 700;
-    font-size: 1.6rem;
+    font-size: var(--fs-body);
     font-family: var(--ff-body);
 }
 
@@ -172,7 +172,7 @@ section {
 .student-type {
     border: 3px solid var(--tc-secondary);
     border-radius: 21px;
-    padding: 4.5rem;
+    padding: 4.5rem 2.5rem;
     height: 40rem;
 
     display: grid;
@@ -259,4 +259,134 @@ section {
 footer {
     height: 30rem;
     background: var(--tc-secondary);
+}
+
+@media (min-width: 1200px) {
+    main {
+        max-width: 1200px;
+        padding: 0 8rem;
+    }
+    
+    :root {
+        --fs-heading: 3.6rem;
+        --fs-body: 1.7rem;
+    }
+
+    .logo {
+        width: 13rem;
+    }
+
+    .cta {
+        display: flex;
+        gap: 4rem;
+    }
+
+    .hero {
+        width: 50rem;
+    }
+
+    .video {
+        max-width: 60rem;
+        max-height: 40rem;
+        margin: 0;
+    }
+
+    #home .cta:nth-child(2) {
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        gap: 9.6rem;
+    }
+
+    .button {
+        width: 41.7rem;
+        align-items: center;
+        margin: 5rem auto 0;
+    }
+
+    #home .button {
+        margin: 2rem 0 0;
+    }
+
+    #knowledge .title {
+        width: 89.1rem;
+        margin: 0 auto;
+
+        font-size: var(--fs-heading);
+    }
+
+    .topics {
+        width: 86.1rem;
+        margin-bottom: 5rem;
+    }
+
+    .topic h2 {
+        font-size: 5rem;
+        margin-left: 5.2rem;
+    }
+
+    .topic h3 {
+        font-size: 2.2rem;
+    } 
+
+    #student h1 {
+        font-size: 4.8rem;
+    }
+
+    .student-type-wrapper {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .student-type {
+        gap: 4.5rem;
+        height: auto;
+        width: 32rem;
+    }
+
+    #ability {
+        width: 93.1rem;
+        margin: 0 auto 5rem;
+    }
+
+    #help {
+        width: 100.5rem;
+        margin: 0 auto 5rem;
+    }
+
+    #help h3 {
+        width: 72.8rem;
+        font-size: 4.8rem;
+        line-height: 4.5rem;
+    }
+
+    #help p {
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+
+    #creator {
+        display: flex;
+    }
+
+    #creator .text-wrapper {
+        max-width: 62.9rem;
+    }
+
+    #creator .text-wrapper h3 {
+        font-size: 4.8rem;
+    }
+
+    #creator .text-wrapper p {
+        font-size: 1.8rem;
+    }
+
+    #contact {
+        margin-top: 15rem;
+        text-align: center;
+    }
+
+    #contact h3 {
+        font-size: 4.8rem;
+    }
 }
