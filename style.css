@@ -257,8 +257,37 @@ section {
 }
 
 footer {
-    height: 30rem;
     background: var(--tc-secondary);
+}
+
+.footer-container {
+    max-width: 32rem;
+
+    margin: 5rem auto 0;
+    font-family: var(--ff-heading);
+    color: var(--tc-primary);
+    font-weight: 400;
+    font-size: 1.5rem;
+
+    padding: 2rem;
+}
+
+.footer-container h3 {
+    font-weight: 400;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:visited {
+    color: white;
+}
+
+.socials {
+    margin-top: 1rem;
+    font-size: 2rem;
 }
 
 @media (min-width: 1200px) {
@@ -392,5 +421,18 @@ footer {
 
     #contact h3 {
         font-size: 4.8rem;
+    }
+
+    .footer-container {
+        margin: 4rem auto 0;
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    .socials {
+        font-size: 3rem;
     }
 }
