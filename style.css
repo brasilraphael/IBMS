@@ -27,12 +27,6 @@ img {
 body {
     background: black;
     color: white;
-    background-color: #1f1e1e;
-    background-image: url("./Assets/images/bg1.png");
-    background-repeat: repeat-y;
-    background-blend-mode: multiply;
-    background-position: top center;
-    background-size: contain;
 }
 
 main {
@@ -297,6 +291,15 @@ footer a:visited {
 }
 
 @media (min-width: 1200px) {
+    body {
+    background-color: #1f1e1e;
+    background-image: url("./Assets/images/bg1.png");
+    background-repeat: repeat-y;
+    background-blend-mode: multiply;
+    background-position: top center;
+    background-size: contain;
+    }
+
     main {
         max-width: 1200px;
         padding: 0 8rem;
