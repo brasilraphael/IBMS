@@ -298,12 +298,11 @@ footer a:visited {
 
 @media (min-width: 1200px) {
     body {
-    background-color: #1f1e1e;
-    background-image: url("./Assets/images/bg1.png");
-    background-repeat: repeat-y;
+    background-color: #161616;
+    background-image: url("./Assets/images/bg-photo.png");
+    background-repeat: no-repeat;
     background-blend-mode: multiply;
     background-position: top center;
-    background-size: contain;
     }
 
     .page {
