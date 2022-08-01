@@ -29,7 +29,7 @@ body {
     color: white;
 }
 
-main {
+.page {
     max-width: 32rem;
     margin: 0 auto;
     padding-top: 3rem;
@@ -187,6 +187,11 @@ section {
     line-height: 3rem;
 }
 
+#ability {
+    max-width: 32rem;
+    margin: 0 auto;
+}
+
 #ability p {
     font-family: var(--ff-body);
     font-size: var(--fs-body);
@@ -301,7 +306,7 @@ footer a:visited {
     background-size: contain;
     }
 
-    main {
+    .page {
         max-width: 1200px;
         padding: 6.7rem 8rem 0;
     }
@@ -407,8 +412,15 @@ footer a:visited {
     }
 
     #ability {
-        width: 93.1rem;
         margin: 0 auto 10rem;
+        background: black;
+        padding: 5rem 0;
+        max-width: none;
+    }
+
+    #ability p {
+        width: 93.1rem;
+        margin: 0 auto;
     }
 
     #help {
