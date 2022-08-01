@@ -62,7 +62,7 @@ section {
     color: var(--tc-primary);
 
     font-family: var(--ff-body);
-    font-size: 1.5rem;
+    font-size: var(--fs-body);
     line-height: 2.6rem;
 }
 
@@ -420,7 +420,6 @@ footer a:visited {
     #ability p {
         width: 93.1rem;
         margin: 0 auto;
-        font-size: 2.2rem;
         line-height: 2.5rem;
     }
 
@@ -436,8 +435,7 @@ footer a:visited {
     }
 
     #help p {
-        font-size: 2.2rem;
-        line-height: 3rem;
+        line-height: 2.5rem;
     }
 
     #creator {
@@ -451,10 +449,6 @@ footer a:visited {
 
     #creator .text-wrapper h3 {
         font-size: 4.8rem;
-    }
-
-    #creator .text-wrapper p {
-        font-size: 1.8rem;
     }
 
     #contact {
