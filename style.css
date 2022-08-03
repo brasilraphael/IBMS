@@ -226,6 +226,11 @@ section {
     margin-top: 5rem;
 }
 
+#creator .joao {
+    margin: 0 auto;
+    width: 80%;
+}
+
 #creator .text-wrapper h3 {
     font-family: var(--ff-heading);
     font-size: var(--fs-heading);
