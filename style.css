@@ -338,8 +338,8 @@ footer a:visited {
     }
 
     .video {
-        max-width: 60rem;
-        max-height: 40rem;
+        max-width: 55rem;
+        max-height: 37.7rem;
         margin: 0;
     }
 
@@ -441,6 +441,23 @@ footer a:visited {
     #creator {
         display: flex;
         margin-top: 10rem;
+        align-items: center;
+    }
+
+    #creator .joao {
+        width: 40.8rem;
+        position: relative;
+    }
+
+    #creator .joao::before {
+        content: '';
+        width: 80rem;
+        height: 30.8rem;
+        background: var(--tc-secondary);
+        position: absolute;
+        left: -60rem;
+        top: 5rem;
+        z-index: -1;
     }
 
     #creator .text-wrapper {
